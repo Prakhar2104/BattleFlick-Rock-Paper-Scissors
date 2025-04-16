@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rock Paper Scissors | Prakhar Plays</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>Prakhar's Rock Paper Scissors</h1>
+
+    <div class="score-board">
+      <div>
+        <h3>You</h3>
+        <span id="user-score">0</span>
+      </div>
+      <div>
+        <h3>Computer</h3>
+        <span id="computer-score">0</span>
+      </div>
+    </div>
+
+    <p class="game-status" id="result">Make your move!</p>
+
+    <div class="buttons">
+      <button id="rock" title="Rock">&#x1F44A;</button>
+      <button id="paper" title="Paper">&#x1f590;</button>
+      <button id="scissors" title="Scissors">&#x270c;</button>
+    </div>
+
+    <button id="reset" class="reset-btn">Reset Game</button>
+
+    <div class="history">
+      <h3>Game History</h3>
+      <ul id="history-log"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
